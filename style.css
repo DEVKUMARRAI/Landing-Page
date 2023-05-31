@@ -6,14 +6,16 @@
 :root{
     --Background-colour:rgb(14 10 7 / 53%);
     --Text-Mythical:#fef4ead6;
+    --Text-naruto:#eede8e;
 }
 body{
+ 
     background-image: url('./Images/background.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
+
 /* --------------------------Nav Section-------------------------------- */
 .container
 {
@@ -21,13 +23,13 @@ body{
     justify-content: space-between;
     height: 100px;
     background-color: var(--Background-colour);
-    margin-bottom: 50px;
+    padding-bottom: 16px;
 }
 .container img{
  
     height: auto;
     width: 70px;
-    margin: 20px 0 20px 20px;
+    margin: 20px 0 20px 47px;
 }
 .nav-links ul{
     display: flex;
@@ -37,7 +39,7 @@ body{
   
 }
 .nav-links{
-    width: 50%;
+    width: 45%;
 }
 ul li a{
     text-decoration: none;
@@ -50,4 +52,52 @@ ul li{
 }
 
 
-/* --------------------------Hero Section-------------------------------- *
+/* --------------------------Hero Section-------------------------------- */
+
+.hero{
+    display: flex;
+    height: 70vh;
+    background-color: #000000d6;
+}
+.part-2{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.part-2>img{
+    height: 100%;
+    
+}
+.part-1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 50px;
+
+}
+.part-1 h1{
+  
+    color: var(--Text-naruto);
+    font-size: 4.8rem;
+    
+}
+.title-1,.title-2{
+    display: flex;
+    flex:1;
+    justify-content: center;
+    align-items: center;
+}
+.title-2{
+    align-items: flex-start;
+}
+
+
+.part-1 p{
+    font-size: 1.4rem;
+    color: var(--Text-naruto);
+
+}
