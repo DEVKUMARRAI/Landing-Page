@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Kalam', cursive;
+}
+:root{
+    --Background-colour:rgb(14 10 7 / 53%);
+    --Text-Mythical:#fef4ead6;
+}
+body{
+    background-image: url('./Images/background.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+}
+/* --------------------------Nav Section-------------------------------- */
+.container
+{
+    display: flex;
+    justify-content: space-between;
+    height: 100px;
+    background-color: var(--Background-colour);
+    margin-bottom: 50px;
+}
+.container img{
+ 
+    height: auto;
+    width: 70px;
+    margin: 20px 0 20px 20px;
+}
+.nav-links ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+  
+}
+.nav-links{
+    width: 50%;
+}
+ul li a{
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: var(--Text-Mythical);
+}
+ul li{
+    list-style: none;
+    font-weight: 700;
+}
+
+
+/* --------------------------Hero Section-------------------------------- *
