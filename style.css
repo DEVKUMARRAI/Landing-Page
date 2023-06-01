@@ -168,3 +168,27 @@ ul li{
     display: flex;
     justify-content: center;
 }
+.bg2{
+    background-image: url('./Images/bg5.jpg');
+    height: 40vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -4;
+    background-position:center;
+    filter: blur(4px);
+}
+.content2{
+    position: absolute;
+    top:190%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.content2 h2{
+    font-size: 3rem;
+    color: #f9b5dd;
+}
