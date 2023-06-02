@@ -4,10 +4,11 @@ This is A Project Named Landing Page in which i will be creating a anime fan lan
 
 
 # Technologies Used --->>>
+    
     1.HTML
     2.CSS
     3.JavaScript
 
 # Website Live At --->
 
-    link - https://devkumarrai.github.io/Landing-Page
+    https://devkumarrai.github.io/Landing-Page
